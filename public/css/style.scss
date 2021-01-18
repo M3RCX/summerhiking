@@ -7,9 +7,10 @@ $gotitle:#e2a355;
 $gotext:#7f7770;
 
 @mixin bg1 {
-    background-image: url(../assets/bgteste2.png) ;
+    background-image: url(../assets/bgteste2.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     
    
     
@@ -41,7 +42,7 @@ $gotext:#7f7770;
 
 .time{
     width: 100%;
-    //height: 811px;
+    
     padding: 0;
     @include bg1();
 }
