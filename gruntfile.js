@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
     grunt.initConfig({
-           C:{
+           browserSync:{
                 public:{
                      bsFiles: {
                           src:['public/**/*']

@@ -5,6 +5,7 @@ $readmore:#ffffff;
 $readmoretxtcolor:#776c64;
 $gotitle:#e2a355;
 $gotext:#7f7770;
+$contentbackground: #7f7770;
 
 @mixin bg1 {
     background-image: url(../assets/bgteste2.png);
@@ -15,6 +16,13 @@ $gotext:#7f7770;
    
     
     
+}
+
+@mixin bgGo{
+    background-image: url(../assets/bggo.png);
+    background-repeat: no-repeat;
+    background-size: 514px;
+    background-position: -5% 95%;
 }
 
 
@@ -43,7 +51,8 @@ $gotext:#7f7770;
 .time{
     width: 100%;
     
-    padding: 0;
+    padding-top: 100px;
+    padding-left: 100px;
     @include bg1();
 }
 
@@ -55,8 +64,7 @@ $gotext:#7f7770;
     font-weight: 800;
     font-family: "Open Sans";
     filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.22));
-    margin-top: 250px;
-    margin-left: 47px;
+
 }
 
 .time__subtitle{
@@ -111,6 +119,10 @@ $gotext:#7f7770;
     color:$readmoretxtcolor;
 }
 
+.go{
+    @include bgGo();
+}
+
 .go__title{
     text-transform: uppercase;
     font-size: 63px;
@@ -129,3 +141,12 @@ $gotext:#7f7770;
     text-align: center;
     
 }
+
+.content{
+    background-color: $contentbackground;
+    padding: 0;
+    width: 336px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

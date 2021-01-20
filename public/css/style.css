@@ -2,27 +2,24 @@
   background-color: white;
   border-color: white;
   height: 150px;
-  filter: drop-shadow(2.575px -4.286px 2.5px rgba(232, 230, 229, 0.75));
-}
+  filter: drop-shadow(2.575px -4.286px 2.5px rgba(232, 230, 229, 0.75)); }
 
 .search {
   background-color: #7f7770;
   border-radius: 25px;
-  border-color: #7f7770;
-}
+  border-color: #7f7770; }
 
 .teste {
-  margin-top: 49px;
-}
+  margin-top: 49px; }
 
 .time {
   width: 100%;
-  padding: 0;
+  padding-top: 100px;
+  padding-left: 100px;
   background-image: url(../assets/bgteste2.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .time__title {
   text-transform: uppercase;
@@ -31,10 +28,7 @@
   color: #deb37e;
   font-weight: 800;
   font-family: "Open Sans";
-  filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
-  margin-top: 250px;
-  margin-left: 47px;
-}
+  filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22)); }
 
 .time__subtitle {
   text-transform: uppercase;
@@ -46,8 +40,7 @@
   font-weight: 700;
   font-style: italic;
   font-family: "Open Sans";
-  text-align: center;
-}
+  text-align: center; }
 
 .time__text {
   width: 452px;
@@ -59,8 +52,7 @@
   font-style: italic;
   font-family: "Open Sans";
   margin-left: 44px;
-  margin-bottom: 250px;
-}
+  margin-bottom: 250px; }
 
 .time__readmoreback {
   margin-left: 44px;
@@ -70,29 +62,31 @@
   background-color: #ffffff;
   text-align: center;
   padding-top: 8px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .time__readmore {
   text-transform: uppercase;
   font-size: 25px;
   color: #776c64;
   font-weight: 800;
-  font-family: "Open Sans";
-}
+  font-family: "Open Sans"; }
 
 .time__readmore:hover {
   text-decoration: none;
-  color: #776c64;
-}
+  color: #776c64; }
+
+.go {
+  background-image: url(../assets/bggo.png);
+  background-repeat: no-repeat;
+  background-size: 514px;
+  background-position: -5% 95%; }
 
 .go__title {
   text-transform: uppercase;
   font-size: 63px;
   color: #e2a355;
   font-weight: 800;
-  font-family: "Open Sans";
-}
+  font-family: "Open Sans"; }
 
 .go__text {
   height: 210px;
@@ -100,7 +94,13 @@
   color: #7f7770;
   font-weight: 400;
   font-family: "Open Sans";
-  text-align: center;
-}
+  text-align: center; }
+
+.content {
+  background-color: #7f7770;
+  padding: 0;
+  width: 336px;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=style.css.map */
